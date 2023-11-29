@@ -23,6 +23,8 @@ public class ProjectPushBot extends Project{
 
         backright = hwMap.dcMotor.get("backright"); //port c0
         backleft = hwMap.dcMotor.get("backleft"); //port e3
+        frontright = hwMap.dcMotor.get("frontright"); //port c1
+        frontleft = hwMap.dcMotor.get("frontleft"); //port e2
 
         //Setup Motor directions and Encoder settings
         frontleft.setDirection(DcMotor.Direction.REVERSE);
